@@ -16,6 +16,23 @@ class Program
 
         string stringYear = Console.ReadLine();
         int intYear = Convert.ToInt32(stringYear);
+        Console.WriteLine("------------------------------------------------------------------");
 
+        if (intYear % 400 == 0)
+        {
+            Console.WriteLine("L'année " + intYear + " est paire.");
+        }
+        else if(intYear % 100 == 0)
+        {
+            Console.WriteLine("L'année " + intYear + " est impaire.");
+        }
+        else if(intYear % 4 == 0)
+        {
+            Console.WriteLine("L'année " + intYear + " est paire.");
+        }
+        else
+        {
+            Console.WriteLine("L'année " + intYear + " est impaire.");
+        }
     }
 }
