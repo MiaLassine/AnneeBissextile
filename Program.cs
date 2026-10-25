@@ -1,4 +1,8 @@
-﻿namespace annee_bissextile;
+﻿//Programme : Exercice conversation de température
+//Creator : Mia Lassine 107B
+//Date : 25/10/2026
+
+namespace annee_bissextile;
 
 class Program
 {
